@@ -1,0 +1,12 @@
+# Ignore local player settings
+options.txt
+optionsof.txt
+servers.dat
+
+# Ignore dynamic server data
+world/
+logs/
+crash-reports/
+usercache.json
+whitelist.json
+ops.json

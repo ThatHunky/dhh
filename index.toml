@@ -15,8 +15,18 @@ hash = "a06ef129798265e0d7249426fb0ed5c506725b0460dc3dfdb975b8978480895e"
 metafile = true
 
 [[files]]
+file = "mods/distanthorizons.pw.toml"
+hash = "479cc9008a66ce4dea0b0be0f749a986d73f5fe778516d6682a5202e19706179"
+metafile = true
+
+[[files]]
 file = "mods/dynamic-fps.pw.toml"
 hash = "af8dc072b8d618de96260fccfa5fab7f79c5ca9679bc3a57473f6df4ce218fff"
+metafile = true
+
+[[files]]
+file = "mods/easyauth.pw.toml"
+hash = "4bad5720d383f38e68af1a423c66808a966845a362216548eba010608fa4e2fd"
 metafile = true
 
 [[files]]
@@ -67,6 +77,11 @@ metafile = true
 [[files]]
 file = "mods/lithium.pw.toml"
 hash = "0e87ab10adb3db84b1d6d2ce8bdd7158878b56c965055056b10ad6cde2634568"
+metafile = true
+
+[[files]]
+file = "mods/skinrestorer.pw.toml"
+hash = "20f35defadc15e64ce28c172114f8caab89555d28377caac7754b1f9e932ffb6"
 metafile = true
 
 [[files]]
