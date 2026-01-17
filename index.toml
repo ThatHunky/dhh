@@ -5,6 +5,11 @@ file = "README.md"
 hash = "836757d79a3c81aff74df361e37fcd116cc432223066c45799c2e2270b64c5c1"
 
 [[files]]
+file = "mods/animal_feeding_trough.pw.toml"
+hash = "89a7eb792dc9cbb9b76bd65c8d9574569423db1f51a7145f3fcbd998bbe9274e"
+metafile = true
+
+[[files]]
 file = "mods/appleskin.pw.toml"
 hash = "ed50f3b3feba91fa31915aefb40690bc322f37be83490e6b59a443e83a46a542"
 metafile = true
@@ -17,6 +22,11 @@ metafile = true
 [[files]]
 file = "mods/balm.pw.toml"
 hash = "a4fa394020116893d1d6bbea9ef304fe3fea55348c81a7cd62de3ccba55adadd"
+metafile = true
+
+[[files]]
+file = "mods/betterf3.pw.toml"
+hash = "8b1e7e1d6edd89356541f1c817f07d8cb1edc78bb5de22ad17b4adbc40ee1ee3"
 metafile = true
 
 [[files]]
@@ -52,6 +62,11 @@ metafile = true
 [[files]]
 file = "mods/controlify.pw.toml"
 hash = "ab246888c6a20973c95fbec40d4678106f8b3ef7a38cb70f894a31431c4ee971"
+metafile = true
+
+[[files]]
+file = "mods/crash-assistant.pw.toml"
+hash = "688283363bd049ee4cbd1416ca412d7e039ec5a5d86f6f690149ba12b3b2297b"
 metafile = true
 
 [[files]]
@@ -92,6 +107,16 @@ metafile = true
 [[files]]
 file = "mods/fabric-language-kotlin.pw.toml"
 hash = "61afd7af5c645ffd966b2bd86be944eacd1e48a8044e8f67082225d4d9989f0c"
+metafile = true
+
+[[files]]
+file = "mods/fallingleaves.pw.toml"
+hash = "c698766bdbac77ecb3ea9b9bb832cd625f6cf04f60fa0df851a5737bdffa8268"
+metafile = true
+
+[[files]]
+file = "mods/fast-ip-ping.pw.toml"
+hash = "87dea750205910be6e5184ca4cdc3a3f2f439364435408b8e7a1036fdf3c28fc"
 metafile = true
 
 [[files]]
@@ -160,6 +185,11 @@ hash = "0e87ab10adb3db84b1d6d2ce8bdd7158878b56c965055056b10ad6cde2634568"
 metafile = true
 
 [[files]]
+file = "mods/logistics.pw.toml"
+hash = "efc15ca099322e2562ca74656c1d87d0815e57ba3ee2f8699b058e91b1a7d959"
+metafile = true
+
+[[files]]
 file = "mods/mixintrace.pw.toml"
 hash = "6cd55df8041a48cb7f5f95ea4520f5ed59064e71ff9dab8b0e02bb922b68c9cb"
 metafile = true
@@ -192,6 +222,11 @@ metafile = true
 [[files]]
 file = "mods/puzzles-lib.pw.toml"
 hash = "548a21f091f48b62c91d69a3857648abc6cc70ea18ebeb2d0b649a6576773a27"
+metafile = true
+
+[[files]]
+file = "mods/reeses-sodium-options.pw.toml"
+hash = "383d8df46529ce54b4b0574be2fd9eba4f45d8c85aa668604e152fca3e439f5a"
 metafile = true
 
 [[files]]

@@ -1,0 +1,13 @@
+name = "Logistics: Automation"
+filename = "logistics-0.2.3-dev.a6d26b7.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/cyW2SS1x/versions/S5fjzDVK/logistics-0.2.3-dev.a6d26b7.jar"
+hash-format = "sha512"
+hash = "82d536975483395dc0746db2e625bff5b01691b0242df446a26e2b764615810049d16700b16962810a98e4264a6710fc005c728986368c261771357f7addf281"
+
+[update]
+[update.modrinth]
+mod-id = "cyW2SS1x"
+version = "S5fjzDVK"
