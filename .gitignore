@@ -1,0 +1,8 @@
+# Packwiz-specific
+mods/*.jar
+!mods/pack.toml
+!mods/index.toml
+
+# General
+.DS_Store
+*.log
