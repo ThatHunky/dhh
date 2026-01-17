@@ -5,6 +5,11 @@ file = "README.md"
 hash = "836757d79a3c81aff74df361e37fcd116cc432223066c45799c2e2270b64c5c1"
 
 [[files]]
+file = "mods/biomes-o-plenty.pw.toml"
+hash = "01e666345c1d2831695616eecb9c9e774e5855b6576f6f6864846f377f92eb6d"
+metafile = true
+
+[[files]]
 file = "mods/chunky.pw.toml"
 hash = "eaa52d6ff1bcb539956d50626085d9185eca346fabcf6b3c176c53192b9958ec"
 metafile = true
@@ -12,6 +17,11 @@ metafile = true
 [[files]]
 file = "mods/cloth-config.pw.toml"
 hash = "a06ef129798265e0d7249426fb0ed5c506725b0460dc3dfdb975b8978480895e"
+metafile = true
+
+[[files]]
+file = "mods/controlify.pw.toml"
+hash = "ab246888c6a20973c95fbec40d4678106f8b3ef7a38cb70f894a31431c4ee971"
 metafile = true
 
 [[files]]
@@ -50,6 +60,11 @@ hash = "76a12a836d4c7f0f943a1e391dd2d7b5c4673caa497fff16593d49449376b117"
 metafile = true
 
 [[files]]
+file = "mods/glitchcore.pw.toml"
+hash = "1e2034f733c04aad97e685219b275bdf5f959854362d11a80347822216f05671"
+metafile = true
+
+[[files]]
 file = "mods/immediatelyfast.pw.toml"
 hash = "402069ebe33a1f19e6e5c0c0235267b832ba44617f15ddbdc677faf2a2607e38"
 metafile = true
@@ -80,6 +95,26 @@ hash = "0e87ab10adb3db84b1d6d2ce8bdd7158878b56c965055056b10ad6cde2634568"
 metafile = true
 
 [[files]]
+file = "mods/mixintrace.pw.toml"
+hash = "6cd55df8041a48cb7f5f95ea4520f5ed59064e71ff9dab8b0e02bb922b68c9cb"
+metafile = true
+
+[[files]]
+file = "mods/modmenu.pw.toml"
+hash = "51ff93e279e03cb3cd77a5be0df777cdcd975d35b5149180d9dc724e47168c76"
+metafile = true
+
+[[files]]
+file = "mods/no-chat-reports.pw.toml"
+hash = "cd25851cbdaad2dd1957a8086ce54aa4bd3c45be75e1ba49168a54fafbd87898"
+metafile = true
+
+[[files]]
+file = "mods/placeholder-api.pw.toml"
+hash = "e674752dd4dd07c33d9b94f6e19c15ef893c356c3c5ed77aeaf35cf6d2325130"
+metafile = true
+
+[[files]]
 file = "mods/skinrestorer.pw.toml"
 hash = "20f35defadc15e64ce28c172114f8caab89555d28377caac7754b1f9e932ffb6"
 metafile = true
@@ -100,6 +135,11 @@ hash = "c073f13897a838e3c409e46b8a1d8cb510d6a6584dd815aeadaf4886f1779513"
 metafile = true
 
 [[files]]
+file = "mods/terrablender.pw.toml"
+hash = "a11751cee1923f2e1ee313671b5bea0259dda32d5d20cd65b573f87b338577ed"
+metafile = true
+
+[[files]]
 file = "mods/yacl.pw.toml"
 hash = "1113d43c39a9866252a83ee50d16aa3ce6fcf749acd84d58b05ca09eba4d187b"
 metafile = true
@@ -108,3 +148,11 @@ metafile = true
 file = "mods/zoomify.pw.toml"
 hash = "671e1badbd1d6b1fe20851202a5328f0600534af609afb0b8b1a0840aa222246"
 metafile = true
+
+[[files]]
+file = "shaderpacks/ComplementaryReimagined_r5.6.1.toml"
+hash = "6b840e7c5b8be109858101a9a7548f5503316830c89e39a2158bc05aa7843e4f"
+
+[[files]]
+file = "shaderpacks/ComplementaryReimagined_r5.6.1.zip"
+hash = "33153747d25fbee470acb42ccf4f26b03cc551bb900d4c6d3389b5500dd84839"

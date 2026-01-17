@@ -1,0 +1,13 @@
+name = "GlitchCore"
+filename = "GlitchCore-fabric-1.21.11-21.11.0.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/s3dmwKy5/versions/pDCgiPQN/GlitchCore-fabric-1.21.11-21.11.0.2.jar"
+hash-format = "sha512"
+hash = "4891e1ad9ef4da27e779e7b9fa45189038aa2d03603eff8924b11561e6262f245d339aa43b02528c194cd1b916c51726199f4ad9b5ae02a4c1902909e8a7a535"
+
+[update]
+[update.modrinth]
+mod-id = "s3dmwKy5"
+version = "pDCgiPQN"
