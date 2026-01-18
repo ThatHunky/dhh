@@ -1,12 +1,12 @@
 name = "DHH"
 author = "Vsevolod Dobrovolskyi"
-version = "1.0.0"
+version = "1.0.1"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "6a06b8a023e880ba25e04b33f25ab707c17f1af83b76c174c22179b45cc6c7cf"
+hash = "4e871dc4545cb1faaf605cd8ce06808ebc7ec34719f93fbff0cbe49ee73f8a8d"
 
 [versions]
 minecraft = "1.21.1"
