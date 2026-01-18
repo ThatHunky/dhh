@@ -2,8 +2,7 @@
 
 ## Requirements
 
-- Java 21 or newer
-- Minecraft 1.21.11 (or compatible: 1.21, 1.21.1, 1.21.10)
+- Minecraft 1.21.1 
 - ~4GB RAM allocated to Minecraft (8GB recommended with shaders)
 
 ## Client Installation

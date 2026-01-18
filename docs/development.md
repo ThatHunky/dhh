@@ -203,3 +203,110 @@ packwiz refresh
 # Verify all mods can be downloaded
 packwiz refresh --check
 ```
+
+## Server Deployment System
+
+The server uses a custom Python deployment script instead of `packwiz-installer` for better control over side-exclusivity.
+
+### deploy_modpack.py
+
+Located at `~/games/servers/dhh-server/deploy_modpack.py`, this script:
+
+1. **Parses** the remote `pack.toml` and `index.toml`
+2. **Filters** mods by `side` property (skips `side = "client"`)
+3. **Downloads** only server-compatible mods
+4. **Cleans** stale JARs not in the current index
+
+```python
+# Key features:
+# - Respects side = "client" | "server" | "both"
+# - Hash verification for cached downloads
+# - Automatic cleanup of orphaned mods
+# - Real-time progress output (flush=True)
+```
+
+### loop.sh Integration
+
+The server's `loop.sh` calls the deployment script before starting:
+
+```bash
+python3 deploy_modpack.py
+if [ $? -ne 0 ]; then
+    echo "❌ DEPLOY FAILED!"
+    # ... error handling
+fi
+# Then start NeoForge server
+bash run.sh nogui
+```
+
+### Why Not packwiz-installer?
+
+The standard `packwiz-installer` had issues with:
+- Not properly cleaning stale mods
+- Inconsistent handling of `side` metadata
+- Leaving orphaned Fabric mods after migration
+
+The custom script ensures a 100% clean server environment.
+
+## Client Update Scripts
+
+### Directory Structure
+
+```
+client/
+├── update.bat           # Windows (Prism, MultiMC)
+├── update.sh            # Linux/macOS (Prism, MultiMC)
+└── packwiz-installer-bootstrap.jar  # Downloaded automatically
+```
+
+### Windows (update.bat)
+
+```batch
+@echo off
+cd /d "%~dp0"
+"%~1" -jar packwiz-installer-bootstrap.jar https://dhh.dobrovolskyi.xyz/pack.toml
+```
+
+**Usage in Prism Launcher:**
+1. Copy `client/` folder to your instance's `.minecraft/`
+2. Set Pre-launch command: `cmd /c "$INST_MC_DIR/client/update.bat" "$INST_JAVA"`
+
+### Linux/macOS (update.sh)
+
+```bash
+#!/bin/bash
+cd "$(dirname "$0")"
+"${1:-${INST_JAVA:-java}}" -jar packwiz-installer-bootstrap.jar https://dhh.dobrovolskyi.xyz/pack.toml
+```
+
+**Usage in Prism Launcher:**
+1. Copy `client/` folder to your instance's `.minecraft/`
+2. Make executable: `chmod +x update.sh`
+3. Set Pre-launch command: `"$INST_MC_DIR/client/update.sh" "$INST_JAVA"`
+
+### Modrinth Pack Format
+
+To export for Modrinth App users:
+
+```bash
+packwiz modrinth export
+```
+
+This creates a `.mrpack` file that can be imported directly.
+
+### CurseForge Format
+
+For CurseForge App users:
+
+```bash
+packwiz curseforge export
+```
+
+### Manual Update (Any Launcher)
+
+1. Download [packwiz-installer-bootstrap.jar](https://github.com/packwiz/packwiz-installer-bootstrap/releases)
+2. Place in your `.minecraft/` folder
+3. Run before launching:
+   ```bash
+   java -jar packwiz-installer-bootstrap.jar https://dhh.dobrovolskyi.xyz/pack.toml
+   ```

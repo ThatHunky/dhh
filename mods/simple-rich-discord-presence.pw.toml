@@ -1,13 +1,13 @@
 name = "Simple Rich Discord Presence"
-filename = "SimpleDiscordRichPresence-neoforge-98.0.0-build.53+mc1.21.11.jar"
+filename = "SimpleDiscordRichPresence-neoforge-88.0.0-build.51+mc1.21.1.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/SCAopByd/versions/yN9ptwOc/SimpleDiscordRichPresence-neoforge-98.0.0-build.53%2Bmc1.21.11.jar"
+url = "https://cdn.modrinth.com/data/SCAopByd/versions/5aJBjHlX/SimpleDiscordRichPresence-neoforge-88.0.0-build.51%2Bmc1.21.1.jar"
 hash-format = "sha512"
-hash = "bfc8eb2204644d4bd45d38edd0cb6c8a4452be7e2cf32e5eb51f89c0002fc0d23f809d5f648ee29701240b04320bf90e851d5ad8822434abea58b8e3270ed9de"
+hash = "37454d24553a5cafbc6bf8cee1ab688baeff96f42b50ba57f40d15f4fe962f7847434e4abd9a651847c76e9696194d10a0d021a0260c64a2ad14647bd1fe479b"
 
 [update]
 [update.modrinth]
 mod-id = "SCAopByd"
-version = "yN9ptwOc"
+version = "5aJBjHlX"

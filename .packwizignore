@@ -10,3 +10,15 @@ crash-reports/
 usercache.json
 whitelist.json
 ops.json
+
+# Ignore development and metadata
+.vscode/
+.specstory/
+.git/
+AGENTS.md
+client/
+docs/
+README.md
+.gitignore
+.gitattributes
+.packwizignore

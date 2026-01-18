@@ -1,13 +1,13 @@
 name = "Traveler's Backpack"
-filename = "travelersbackpack-neoforge-1.21.11-10.11.2.jar"
+filename = "travelersbackpack-neoforge-1.21.1-10.1.31.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/rlloIFEV/versions/z2976irC/travelersbackpack-neoforge-1.21.11-10.11.2.jar"
+url = "https://cdn.modrinth.com/data/rlloIFEV/versions/7ggMWW1x/travelersbackpack-neoforge-1.21.1-10.1.31.jar"
 hash-format = "sha512"
-hash = "4871fec6f58614f061eb2470a4ab2256890230ef48fc8cf984a3e27ba4230ce19d912625eb3e78ec964653ba84c0746be9ab4465b90a6672e4ee67cd13ee6ae7"
+hash = "f2a16458ee3c8ce57d7be5008e92443177f5d0a2ab03ad0e146fa3f9d700767c5d7114cc328fce08ac9ef97a43fa00c3c7b40e482e6a80d4b88b6868887277da"
 
 [update]
 [update.modrinth]
 mod-id = "rlloIFEV"
-version = "z2976irC"
+version = "7ggMWW1x"
