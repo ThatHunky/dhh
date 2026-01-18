@@ -1,0 +1,13 @@
+name = "NeoAuth"
+filename = "NeoAuth-1.21.1-1.0.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/zeZhoBhv/versions/lpBpUy0s/NeoAuth-1.21.1-1.0.1.jar"
+hash-format = "sha512"
+hash = "d8f372b942efec0e057fa9a8a3a48c099eea78ed6461e27adcd782cee555dc2ddd7eb48c889ca41d549e684174e1c463a79811cdc45d4ef28c7b8f0437a6f883"
+
+[update]
+[update.modrinth]
+mod-id = "zeZhoBhv"
+version = "lpBpUy0s"

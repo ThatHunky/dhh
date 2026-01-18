@@ -1,5 +1,0 @@
-name = "Oculus"
-side = "client"
-
-[update.modrinth]
-mod-id = "InL0yNzv"
