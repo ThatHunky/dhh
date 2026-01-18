@@ -1,0 +1,13 @@
+name = "Oritech"
+filename = "oritech-neoforge-1.21.1-1.0.0-rc2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/4sYI62kA/versions/ZD389y4a/oritech-neoforge-1.21.1-1.0.0-rc2.jar"
+hash-format = "sha512"
+hash = "699342f9eb988a099cbf3bfad252969d0f71bb4eb3f3e31a5c22eae6ca22fc1dd4932d65709643cd10e90f90f5ba9a61aebcfe4fbcee94465bd9ca0c8ee9f13a"
+
+[update]
+[update.modrinth]
+mod-id = "4sYI62kA"
+version = "ZD389y4a"
