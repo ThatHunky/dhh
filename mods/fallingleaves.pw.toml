@@ -1,6 +1,7 @@
 name = "Falling Leaves"
 filename = "fallingleaves-2.0.3+1.21.11.jar"
 side = "client"
+loader = "neoforge"
 
 [download]
 url = "https://cdn.modrinth.com/data/WhbRG4iK/versions/U7hPBr6x/fallingleaves-2.0.3%2B1.21.11.jar"

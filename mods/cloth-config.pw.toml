@@ -1,13 +1,13 @@
 name = "Cloth Config API"
-filename = "cloth-config-21.11.153-fabric.jar"
+filename = "cloth-config-21.11.153-neoforge.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/9s6osm5g/versions/xuX40TN5/cloth-config-21.11.153-fabric.jar"
+url = "https://cdn.modrinth.com/data/9s6osm5g/versions/Wsus0EWg/cloth-config-21.11.153-neoforge.jar"
 hash-format = "sha512"
-hash = "8f455489d4b71069e998568cf4e1450116f4360a4eb481cd89117f629c6883164886cf63ca08ac4fc929dd13d1112152755a6216d4a1498ee6406ef102093e51"
+hash = "04713c7d5c3e0a8de711b4f54933c2adf72836008e37dd6e65e8c10b4c7a45d28f3ecdf4b3a94dad6c62725cd5135247cafc378ae2711b13440962abf9c61dfe"
 
 [update]
 [update.modrinth]
 mod-id = "9s6osm5g"
-version = "xuX40TN5"
+version = "Wsus0EWg"

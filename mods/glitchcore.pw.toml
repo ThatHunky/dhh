@@ -1,13 +1,13 @@
 name = "GlitchCore"
-filename = "GlitchCore-fabric-1.21.11-21.11.0.2.jar"
+filename = "GlitchCore-neoforge-1.21.11-21.11.0.2.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/s3dmwKy5/versions/pDCgiPQN/GlitchCore-fabric-1.21.11-21.11.0.2.jar"
+url = "https://cdn.modrinth.com/data/s3dmwKy5/versions/birsYqab/GlitchCore-neoforge-1.21.11-21.11.0.2.jar"
 hash-format = "sha512"
-hash = "4891e1ad9ef4da27e779e7b9fa45189038aa2d03603eff8924b11561e6262f245d339aa43b02528c194cd1b916c51726199f4ad9b5ae02a4c1902909e8a7a535"
+hash = "e6a8d40185c4d8954350ef920f7cf13a968fa3e1a4536451fe0fc63b54533f456f3b9374c26de4ede10e98f1fdb04658cb83668a1185e52a80eaea134b2b251b"
 
 [update]
 [update.modrinth]
 mod-id = "s3dmwKy5"
-version = "pDCgiPQN"
+version = "birsYqab"

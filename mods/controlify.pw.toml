@@ -1,13 +1,13 @@
 name = "Controlify (Controller support)"
-filename = "controlify-2.5.2+1.21.11-fabric.jar"
+filename = "controlify-2.5.2+1.21.11-neoforge.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/DOUdJVEm/versions/XN6OUc3u/controlify-2.5.2%2B1.21.11-fabric.jar"
+url = "https://cdn.modrinth.com/data/DOUdJVEm/versions/2Qyt7ArH/controlify-2.5.2%2B1.21.11-neoforge.jar"
 hash-format = "sha512"
-hash = "7a7d55301cc1a51d9bdb9cc9a614a7ce5ea58f04b768db81d0e1ba4ee3d83c0bafb9f14a5a12e97ec3e6147b9090aa9489adae3e661bf18595f8d279c1afb160"
+hash = "cdccc795cc3a1e490f9f1ea537def61d52a6be2f5ac8648115e68e6911828cf5960271144c2d114b06b292e6650c10c689c6abda32e6379ca79e3f40dc22620a"
 
 [update]
 [update.modrinth]
 mod-id = "DOUdJVEm"
-version = "XN6OUc3u"
+version = "2Qyt7ArH"

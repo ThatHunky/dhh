@@ -1,6 +1,7 @@
 name = "Logistics: Automation"
 filename = "logistics-0.2.3-dev.a6d26b7.jar"
 side = "both"
+loader = "neoforge"
 
 [download]
 url = "https://cdn.modrinth.com/data/cyW2SS1x/versions/S5fjzDVK/logistics-0.2.3-dev.a6d26b7.jar"

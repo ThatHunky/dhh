@@ -1,13 +1,13 @@
 name = "YetAnotherConfigLib (YACL)"
-filename = "yet_another_config_lib_v3-3.8.2+1.21.11-fabric.jar"
+filename = "yet_another_config_lib_v3-3.8.2+1.21.11-neoforge.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/1eAoo2KR/versions/pHWDw3Vc/yet_another_config_lib_v3-3.8.2%2B1.21.11-fabric.jar"
+url = "https://cdn.modrinth.com/data/1eAoo2KR/versions/HZs9mrWM/yet_another_config_lib_v3-3.8.2%2B1.21.11-neoforge.jar"
 hash-format = "sha512"
-hash = "392db7d471030cca27483ecf58c626a14cd73d71a18afe6d4173c6b030948b8a925b36e708d4cc2c897dfa3f20a7f23b999fc18aa6d36c156da29037601153ac"
+hash = "5bffe9c6025e8ca3f79a9c098a090be66fd2b4d09fcbb83a4bd0ab8e79e069994901b12117ea1fd584bf88caf05e63d4550ff58961d2be2a1ed5808b4db66ee6"
 
 [update]
 [update.modrinth]
 mod-id = "1eAoo2KR"
-version = "pHWDw3Vc"
+version = "HZs9mrWM"

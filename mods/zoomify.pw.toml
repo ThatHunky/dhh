@@ -1,6 +1,7 @@
 name = "Zoomify"
 filename = "zoomify-2.15.1+1.21.11.jar"
 side = "client"
+loader = "neoforge"
 
 [download]
 url = "https://cdn.modrinth.com/data/w7ThoJFB/versions/YphN3CnL/zoomify-2.15.1%2B1.21.11.jar"

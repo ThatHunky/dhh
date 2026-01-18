@@ -1,13 +1,13 @@
 name = "Skin Restorer"
-filename = "skinrestorer-2.5.0+1.21.11-fabric.jar"
+filename = "skinrestorer-2.5.0+1.21.11-neoforge.jar"
 side = "server"
 
 [download]
-url = "https://cdn.modrinth.com/data/ghrZDhGW/versions/ZIKgsH8x/skinrestorer-2.5.0%2B1.21.11-fabric.jar"
+url = "https://cdn.modrinth.com/data/ghrZDhGW/versions/Y4FHnK78/skinrestorer-2.5.0%2B1.21.11-neoforge.jar"
 hash-format = "sha512"
-hash = "bfd5d67852bb8e5d757aee8657edd1b8b6268d526462224337313b1c01dc5db581e44ba41085caa4961039e90e73a2fa0e014514351e3566adcb4de1fe3091b7"
+hash = "89d87d7973e5144ff7d42202e3246ec7e8e654e5a2fd6d8308c71c8417b05cf3ef066d0780ebbc921d82067b9c08bd89ebfb3534bad97e1252ba6cebb5f8e4aa"
 
 [update]
 [update.modrinth]
 mod-id = "ghrZDhGW"
-version = "ZIKgsH8x"
+version = "Y4FHnK78"

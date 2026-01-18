@@ -1,13 +1,13 @@
 name = "No Chat Reports"
-filename = "NoChatReports-FABRIC-1.21.11-v2.18.0.jar"
+filename = "NoChatReports-NEOFORGE-1.21.11-v2.18.0.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/qQyHxfxd/versions/rhykGstm/NoChatReports-FABRIC-1.21.11-v2.18.0.jar"
+url = "https://cdn.modrinth.com/data/qQyHxfxd/versions/VzOlr0Q0/NoChatReports-NEOFORGE-1.21.11-v2.18.0.jar"
 hash-format = "sha512"
-hash = "d2c35cc8d624616f441665aff67c0e366e4101dba243bad25ed3518170942c1a3c1a477b28805cd1a36c44513693b1c55e76bea627d3fced13927a3d67022ccc"
+hash = "677791f6bb95672f8a339c44323577174078f2ce3179f5dae7f2fdd24bcea668d5df6076e4b11ea948f9a406b8b9fad71d398d3b3592b269d74d6957b9137ed9"
 
 [update]
 [update.modrinth]
 mod-id = "qQyHxfxd"
-version = "rhykGstm"
+version = "VzOlr0Q0"

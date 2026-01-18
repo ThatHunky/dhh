@@ -1,6 +1,7 @@
 name = "Krypton"
 filename = "krypton-0.2.10.jar"
 side = "both"
+loader = "neoforge"
 
 [download]
 url = "https://cdn.modrinth.com/data/fQEb0iXm/versions/O9LmWYR7/krypton-0.2.10.jar"
