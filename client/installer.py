@@ -44,7 +44,7 @@ NEOFORGE_VERSION = "21.1.218"
 LWJGL_VERSION = "3.3.3"
 MIN_MEMORY = 4096  # 4GB in MB
 MAX_MEMORY = 8192  # 8GB in MB
-PRE_LAUNCH_CMD = 'cmd /c "$INST_DIR/minecraft/update.bat" "$INST_JAVA"'
+PRE_LAUNCH_CMD = 'cmd /c \"$INST_DIR/minecraft/update.bat\" \"$INST_JAVA\"'
 
 PRISM_DOWNLOAD_URL = "https://prismlauncher.org/download/"
 
@@ -693,6 +693,7 @@ InstanceType=OneSix
             config_dict['OverrideMemory'] = 'true'
             config_dict['MinMemAlloc'] = str(MIN_MEMORY)
             config_dict['MaxMemAlloc'] = str(MAX_MEMORY)
+            config_dict['OverrideJavaLocation'] = 'false'
             
             # Write back with section header
             with open(instance_cfg_path, 'w', encoding='utf-8') as f:
