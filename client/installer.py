@@ -44,7 +44,7 @@ NEOFORGE_VERSION = "21.1.218"
 LWJGL_VERSION = "3.3.3"
 MIN_MEMORY = 4096  # 4GB in MB
 MAX_MEMORY = 8192  # 8GB in MB
-PRE_LAUNCH_CMD = 'cmd /c "$INST_DIR/minecraft/update.bat" "$INST_JAVA"'
+PRE_LAUNCH_CMD = r'cmd /c "$INST_DIR\minecraft\update.bat" "$INST_JAVA"'
 
 PRISM_DOWNLOAD_URL = "https://prismlauncher.org/download/"
 
