@@ -1,0 +1,10 @@
+{
+    "ModSettings": {
+        "first_run": true
+    },
+    "AutoRefillSettings": {
+        "auto_refill_enable_horbar_indicator_icons": {
+            "value": false
+        }
+    }
+}

@@ -105,6 +105,27 @@ Monitor progress:
 /chunky progress
 ```
 
+### Distant Horizons (LOD Rendering)
+
+Distant Horizons may show a warning about Chunky compatibility. To disable this warning:
+
+**Client-side:**
+1. Navigate to `.minecraft/config/DistantHorizons.toml`
+2. Find the `[logging]` section (or create it if missing)
+3. Add or modify:
+   ```toml
+   [logging]
+   showModCompatibilityWarnings = false
+   ```
+4. Save and restart Minecraft
+
+**Server-side:**
+1. Edit `config/DistantHorizons.toml` in your server directory
+2. Add the same `[logging]` section with `showModCompatibilityWarnings = false`
+3. Restart the server
+
+**Note:** This warning appears because Chunky can generate chunks faster than Distant Horizons can process them, potentially causing gaps in LOD rendering. If you experience visual issues, consider using Distant Horizons' built-in distant generator instead of Chunky, or increase DH's CPU thread count in the config.
+
 ## Performance Tuning
 
 ### JVM Arguments

@@ -1,0 +1,13 @@
+name = "Manure"
+filename = "manure-1.21.1-3.9.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Vl1qd1sW/versions/yPRPjH0X/manure-1.21.1-3.9.jar"
+hash-format = "sha512"
+hash = "ee9283051152f56cc9fd3b484e56e1e516fc1f1cdaa0ebfcd2b5f672dfbd18e7b5617dd297ae0cfcf596e4b005646662920f6260e0933d04015849003259eb18"
+
+[update]
+[update.modrinth]
+mod-id = "Vl1qd1sW"
+version = "yPRPjH0X"
