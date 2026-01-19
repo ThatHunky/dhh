@@ -1,8 +1,167 @@
-# Packwiz-specific
+# ============================================
+# Packwiz Modpack - DHH
+# ============================================
+
+# Packwiz: Ignore mod JARs (metadata files .pw.toml are tracked)
 mods/*.jar
+resourcepacks/*.zip
+shaderpacks/*.zip
+
+# Keep packwiz metadata files
+!mods/*.toml
 !mods/pack.toml
 !mods/index.toml
 
-# General
-.DS_Store
+# ============================================
+# Minecraft Instance Files
+# ============================================
+
+# World saves (too large, user-specific)
+saves/
+world/
+world_*/
+
+# User-specific options
+options.txt
+optionsof.txt
+optionsshaders.txt
+servers.dat
+servers.dat_old
+usercache.json
+usernamecache.json
+
+# Logs and crash reports
+logs/
+crash-reports/
 *.log
+*.log.*
+
+# Screenshots and recordings (optional - remove if you want to track them)
+screenshots/
+replay_recordings/
+
+# Local caches
+asm/
+cache/
+local/
+.mixin.out/
+
+# ============================================
+# Client Installer Build Artifacts
+# ============================================
+
+# Python
+client/__pycache__/
+client/*.pyc
+client/*.pyo
+client/*.pyd
+client/.Python
+client/env/
+client/venv/
+client/ENV/
+client/build/
+client/develop-eggs/
+client/dist/
+client/downloads/
+client/eggs/
+client/.eggs/
+client/lib/
+client/lib64/
+client/parts/
+client/sdist/
+client/var/
+client/wheels/
+client/*.egg-info/
+client/.installed.cfg
+client/*.egg
+client/MANIFEST
+client/*.spec
+
+# Installer logs
+client/installer.log
+
+# ============================================
+# Development & IDE
+# ============================================
+
+# VSCode
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# JetBrains IDEs
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# ============================================
+# OS-Specific
+# ============================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.directory
+.Trash-*
+
+# ============================================
+# Temporary & Backup Files
+# ============================================
+
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+.*.swp
+.*.swo
+
+# ============================================
+# Server-Specific (if running local test server)
+# ============================================
+
+# Server JARs
+server.jar
+neoforge-*.jar
+forge-*.jar
+
+# Server world data
+server/world/
+server/world_*/
+server/logs/
+server/crash-reports/
+
+# Server configs (if different from client)
+server/config/
+server/mods/
+
+# EULA
+eula.txt
+
+# ============================================
+# Packwiz Serve (local testing)
+# ============================================
+
+.packwizignore
