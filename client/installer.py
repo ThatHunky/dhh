@@ -604,6 +604,12 @@ ConfigVersion=1.3
 iconKey=neoforged
 name={instance_name_display}
 InstanceType=OneSix
+OverrideCommands=true
+PreLaunchCommand={PRE_LAUNCH_CMD}
+OverrideMemory=true
+MinMemAlloc={MIN_MEMORY}
+MaxMemAlloc={MAX_MEMORY}
+OverrideJavaLocation=false
 """
             
             with open(instance_cfg_path, 'w', encoding='utf-8') as f:
